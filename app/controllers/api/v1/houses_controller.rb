@@ -7,3 +7,4 @@ class Api::V1::HousesController < ApplicationController
       render body: "Unauthorized", status: 401
     end
   end
+end
