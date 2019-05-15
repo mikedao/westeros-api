@@ -1,4 +1,4 @@
 class HouseSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :students
+  attributes :name, :members
 end
